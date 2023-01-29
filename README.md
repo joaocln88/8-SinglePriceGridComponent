@@ -30,7 +30,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://joaocln88.github.io/FrontendMentor-SinglePriceGridComponet](https://joaocln88.github.io/FrontendMentor-SinglePriceGridComponet/)
+- Solution URL: [https://joaocln88.github.io/FrontendMentor-SinglePriceGridComponet](https://joaocln88.github.io/FrontendMentor-SinglePriceGridComponent/)
 
 ## My process
 
