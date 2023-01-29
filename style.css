@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #e6eff5;
+  height: 100vh;
+  margin: auto;
+  display: grid;
+  place-content: center;
+}
+
+main {
+  font-family: 'Karla', sans-serif;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-content: center;
+  background-color: #fff;
+  box-shadow: 0px 15px 30px rgba(0, 81, 171, 0.148847);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+section {
+  padding: 40px;
+}
+
+.invitation {
+  grid-column: 1/-1;
+}
+
+.invitation h2 {
+  letter-spacing: -0.3px;
+  color: #2ab3b1;
+}
+
+.invitation p:first-of-type {
+  color: #c0df33;
+  font-size: 1.2rem;
+  margin-top: 1.5rem;
+}
+
+.invitation p:nth-of-type(2) {
+  color: #9aa7be;
+  margin-top: 0.75rem;
+  line-height: 1.62;
+  letter-spacing: -0.2px;
+}
+
+.subscription,
+.why-us {
+  background-color: #2ab3b1;
+  color: #fff;
+}
+
+.subscription h2 {
+  font-size: 1.2rem;
+  letter-spacing: -0.225px;
+}
+
+.price {
+  margin-top: 1.2rem;
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: -0.4px;
+}
+
+.price span {
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.62;
+  letter-spacing: -0.2px;
+  opacity: 0.5;
+  vertical-align: middle;
+}
+
+.subscription p:last-of-type {
+  line-height: 1.62;
+  letter-spacing: -0.2px;
+}
+
+a {
+  text-decoration: none;
+  background-color: #c0df33;
+  font-weight: 700;
+  letter-spacing: -0.2px;
+  color: #ffffff;
+  display: block;
+  text-align: center;
+  padding: 1rem;
+  border-radius: 5px;
+  margin-top: 1.625rem;
+}
+
+.why-us {
+  position: relative;
+}
+
+.why-us h2 {
+  font-size: 1.2rem;
+  letter-spacing: -0.225px;
+}
+
+ul {
+  list-style: none;
+  margin-top: 1.2rem;
+}
+
+li {
+  font-size: 0.875rem;
+  line-height: 1.43;
+  letter-spacing: -0.175px;
+  opacity: 0.75;
+}
+
+.mask {
+  position: absolute;
+  background-color: #fff;
+  opacity: 0.15;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+@media screen and (max-width: 550px) {
+  main {
+    grid-template-columns: 1fr;
+    margin: 2rem;
+  }
+  section {
+    padding: 24px;
+  }
+  .invitation h2 {
+    font-size: 1.25rem;
+  }
+}
